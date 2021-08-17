@@ -1,4 +1,4 @@
-@charset "utf-8"
+@charset "utf-8";
 
 body{
     background-color: silver;
@@ -113,7 +113,7 @@ nav li a:hover{
     outline: none;
     margin: 0px 10px;
 }
-
+/* 
 .hire-btn{
     border: 2px solid darkgrey;
     color: black;
@@ -125,7 +125,7 @@ nav li a:hover{
     border: none;
 }
 
-/* button.down-cv:hover{
+.down-cv:hover{
     transform:scale(1.1);
     border: solid;
 } */
@@ -277,7 +277,7 @@ button:hover{
     transition: 0.4s;
 }
 
-.bar:hover{
+nav.bar:hover{
     background: #FFFF;
 }
 
