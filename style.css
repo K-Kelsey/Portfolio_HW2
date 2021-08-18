@@ -259,8 +259,6 @@ button:hover{
     position: relative;
     top: 50%;
     left: 50%;
-    justify-content: center;
-    align-items: center;
     transform: translate(-50%,-50%);
 }
 
@@ -275,7 +273,7 @@ button:hover{
 .bar{
     width: 50px;
     height: 10px;
-    border: 2px solid #FFFF;
+    border: 2px solid white;
     margin: 6px;
     cursor: pointer;
     transition: 0.4s;
@@ -633,8 +631,11 @@ $phone:480px;
         height: 29px;
         border-radius: 10px;
         font-size: 10px;
-        margin: 0 0;
+        margin: 0 0 0 0;
     }
+     .btn-container {
+        display: flex;
+     }
 
     section {
         height: 85vw;
@@ -653,12 +654,15 @@ $phone:480px;
         color: silver;
         box-shadow: whitesmoke;
     }
-     
+      /*nav bar for slideshow is acting funny when in this viewport size*/ 
     .navigation{
         width: 120px;
-        top: 200px;
+        top: 55%;
+        border: 2px solid silver;
     }
-    
+     .bar{
+         border: 1px solid black;
+     }
     .about-container img{
         height: 130px;
     }
@@ -718,9 +722,8 @@ $phone:480px;
         margin-right: 73px;
     }
 
-    /*---------why wont the slide show shrink with page-----------------*/
     .slideshow{
-        width: 420px; /*lol*/
+        width: 85%;
         height: 525px;
         overflow: hidden;
     }
@@ -767,5 +770,4 @@ $phone:480px;
         width: 90%;
         font-size: 12px;
     }
-    
 }
