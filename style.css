@@ -42,7 +42,7 @@ nav ul{
 }
 
 nav ul li a{
-    margin: 30px;
+    margin-right: 30px;
     font-family: monospace, sans-serif;
     color: white;
     font-size: 15px;
