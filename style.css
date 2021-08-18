@@ -658,10 +658,9 @@ $phone:480px;
     .navigation{
         width: 120px;
         top: 55%;
-        border: 2px solid silver;
     }
      .bar{
-         border: 1px solid black;
+         border: 2px solid silver;
      }
     .about-container img{
         height: 130px;
