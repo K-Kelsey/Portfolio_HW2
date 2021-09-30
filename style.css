@@ -319,6 +319,14 @@ input[name="r"]{
     margin-left: -40%;
 }
 
+#r4:checked ~ .s1{
+    margin-left: -60%;
+}
+
+#r5:checked ~ .s1{
+    margin-left: -80%;
+}
+
 .contact {
     width: 100%;
     height: 280px;
@@ -721,10 +729,10 @@ $phone:480px;
         margin-left: 35px;
         margin-right: 73px;
     }
-
+/*Fix height of navigation bar. using hard px was screwing with the viewport vs the element */
     .slideshow{
         width: 85%;
-        height: 525px;
+        height: 40%;
         overflow: hidden;
     }
 
